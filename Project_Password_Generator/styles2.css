@@ -1,0 +1,78 @@
+body {
+    background-color: #0d1722;
+    margin: 0;
+    color: white;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+  }
+
+  .container {
+      background-color:  #1d354e;
+      padding: 3rem;
+      border-radius: 1rem;
+      border: 2px solid #1b3047;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+  }
+
+  .form {
+    display: grid;
+    grid-template-columns: auto auto;
+    row-gap: 5px;
+    column-gap: 10px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .title {
+      margin: 0;
+      color: #c8edff;
+      text-align: center;
+  }
+
+  .character-amount-container {
+      display: flex;
+      align-items: center;
+  }
+
+  .number-input {
+     width: 3rem; 
+  }
+
+  .password-display {
+      background-color: white;
+      color: #1b3047;
+      padding: 1rem;
+      border: 1px solid #1b3047;
+      border: 2px dashed #c0c7cf;
+      border-radius: .5rem;
+      height: 3rem;
+      width: 350px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      word-break: break-all;
+  }
+
+  .btn {
+      grid-column: span 2;
+      font-size: 19px;
+      line-height: 22px;
+      margin: 16px 16px 16px 20px;
+      padding: 14px 34px;
+      background-color: #0497e0;
+      border: 1px solid #19b2fe;;
+      color: white;
+      padding: .5rem 1rem;
+      font-weight: bold;
+      cursor: pointer;
+      border-radius: 1rem;
+  }
+  .btn:hover {
+     background-color: #37bafc; 
+  }
