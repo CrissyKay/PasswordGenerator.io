@@ -1,12 +1,34 @@
-# PasswordGenertor.io
+The assignment was to create a password generator using the criteria below.
 
+## User Story
 
-I uploaded what I have and was unable to get it to work however I wanted to submit on time. I double checked my code and I am at a loss what isnt executing correctly. I did not commit multiple because I worked on it in one pass as I am a single mom and didnt have any other time to do this project.
+```
+AS AN employee with access to sensitive data
+I WANT to randomly generate a password that meets certain criteria
+SO THAT I can create a strong password that provides greater security
+```
 
-Hopefully you can tell me what I did wrong. 
+## Acceptance Criteria
 
-Thank you.
+```
+GIVEN I need a new, secure password
+WHEN I click the button to generate a password
+THEN I am presented with a series of prompts for password criteria
+WHEN prompted for password criteria
+THEN I select which criteria to include in the password
+WHEN prompted for the length of the password
+THEN I choose a length of at least 8 characters and no more than 128 characters
+WHEN prompted for character types to include in the password
+THEN I choose lowercase, uppercase, numeric, and/or special characters
+WHEN I answer each prompt
+THEN my input should be validated and at least one character type should be selected
+WHEN all prompts are answered
+THEN a password is generated that matches the selected criteria
+WHEN the password is generated
+THEN the password is either displayed in an alert or written to the page
 
 
 ****UPDATE****
-Homework resubmitted as requested. Thank you.
+Homework resubmitted as requested with proper deployment to https://github.com/CrissyKay/PasswordGenerator.io.git 
+
+Thank you.
