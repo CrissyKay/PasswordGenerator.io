@@ -29,6 +29,6 @@ THEN the password is either displayed in an alert or written to the page
 
 
 ****UPDATE****
-Homework resubmitted as requested with proper deployment to https://github.com/CrissyKay/PasswordGenerator.io.git 
+Homework resubmitted as requested with proper deployment to https://crissykay.github.io/PasswordGenerator.io/
 
 Thank you.
